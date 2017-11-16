@@ -1,0 +1,132 @@
+[{
+    "name": "General RCR Resources",
+    "resources": [{
+      "name": "Resources for Research Ethics Education, UC San Diego",
+      "links": [{
+        "display": "http://research-ethics.net/",
+        "href": "http://research-ethics.net/"
+      }]
+    }, {
+      "name": "Ethics CORE (Collaborative Online Resource Environment), University of Illinois Urbana-Champaign",
+      "links": [{
+        "display": "https://nationalethicscenter.org/",
+        "href": "https://nationalethicscenter.org/"
+      }]
+    }, {
+      "name": "Research Integrity & Reproducibility",
+      "links": [{
+        "display": "http://metasub.org/research-integrity-and-reproducibility/",
+        "href": "http://metasub.org/research-integrity-and-reproducibility/"
+      }]
+    }, {
+      "name": "Penn State University",
+      "links": [{
+        "display": "https://www.research.psu.edu/education/rcr",
+        "href": "https://www.research.psu.edu/education/rcr"
+      }]
+    }, {
+      "name": "UC San Diego Research Ethics Program",
+      "links": [{
+        "display": "http://ethics.ucsd.edu/resources/index.html",
+        "href": "http://ethics.ucsd.edu/resources/index.html"
+      }]
+    }, {
+      "name": "Ethics Education Library, Illinois Institute of Technology",
+      "links": [{
+        "display": "http://ethics.iit.edu/eelibrary/",
+        "href": "http://ethics.iit.edu/eelibrary/"
+      }]
+    }, {
+      "name": "Office of Research Integrity, ORI",
+      "links": [{
+        "display": "https://ori.hhs.gov/general-resources-0",
+        "href": "https://ori.hhs.gov/general-resources-0"
+      }]
+    }, {
+      "name": "Online Ethics Center for Engineering and Research, National Academy of Engineering",
+      "links": [{
+        "display": "http://www.onlineethics.org/",
+        "href": "http://www.onlineethics.org/"
+      }]
+    }, {
+      "name": "Project for Scholarly Integrity, Council of Graduate Schools",
+      "links": [{
+        "display": "http://www.scholarlyintegrity.org/",
+        "href": "http://www.scholarlyintegrity.org/"
+      }, {
+        "display": "http://www.scholarlyintegrity.org/Resources.aspx",
+        "href": "http://www.scholarlyintegrity.org/Resources.aspx"
+      }]
+    }, {
+      "name": "Responsible Conduct of Research for Postdocs, National Postdoctoral Association",
+      "links": [{
+        "display": "Responsible Conduct of Research Toolkit",
+        "href": "http://c.ymcdn.com/sites/www.nationalpostdoc.org/resource/resmgr/npa-rcr-toolkit.pdf"
+      }]
+    }, {
+      "name": "Florida International University",
+      "links": [{
+        "display": "http://research.fiu.edu/rcr/resources/",
+        "href": "http://research.fiu.edu/rcr/resources/"
+      }]
+    }, {
+      "name": "Columbia RCR Portal",
+      "links": [{
+        "display": "http://ccnmtl.columbia.edu/projects/rcr/index.html",
+        "href": "http://ccnmtl.columbia.edu/projects/rcr/index.html"
+      }]
+    }, {
+      "name": "Boston College",
+      "links": [{
+        "display": "http://www.bc.edu/research/oric/rcr.html",
+        "href": "http://www.bc.edu/research/oric/rcr.html"
+      }]
+    }, {
+      "name": "European Code of Conduct for Research Integrity",
+      "links": [{
+        "display": "http://www.allea.org/wp-content/uploads/2017/03/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017-1.pdf",
+        "href": "http://www.allea.org/wp-content/uploads/2017/03/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017-1.pdf"
+      }]
+    }, {
+      "name": "Movie “On Being a Scientist” Leiden University, Netherlands",
+      "links": [{
+        "display": "On Being a Scientist",
+        "href": "https://www.youtube.com/watch?v=tCgZSjoxF7c"
+      }]
+    }, {
+      "name": "Dilemma Game Erasmus, University of Rotterdam",
+      "links": [{
+        "display": "https://www.eur.nl/english/eur/publications/integrity/dilemma_game/",
+        "href": "https://www.eur.nl/english/eur/publications/integrity/dilemma_game/"
+      }]
+    }, {
+      "name": "Research Ethics Library, Norway",
+      "links": [{
+        "display": "https://www.etikkom.no/en/library/",
+        "href": "https://www.etikkom.no/en/library/"
+      }]
+    }, {
+      "name": "European Network of Research Integrity Offices",
+      "links": [{
+        "display": "http://www.enrio.eu/",
+        "href": "http://www.enrio.eu/"
+      }]
+    }, {
+      "name": "Ethics and Integrity: Promoting Scientific Integrity in Research",
+      "links": [{
+        "display": "http://ethics-and-integrity.net/",
+        "href": "http://ethics-and-integrity.net/"
+      }]
+    }, {
+      "name": "RRI Tools, Responsible Research and Innovation (European Union)",
+      "links": [{
+        "display": "https://www.rri-tools.eu/",
+        "href": "https://www.rri-tools.eu/"
+      }]
+    }]
+  },
+  {
+    "name": "Case Studies",
+    "resources": []
+  }
+]
