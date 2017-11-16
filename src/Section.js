@@ -8,6 +8,7 @@ import {
 import Typography from 'material-ui/Typography';
 
 import Resources from './Resources';
+import Links from './Links';
 
 const styles = theme => ({
   wrapper: {
@@ -28,7 +29,8 @@ class Section extends Component {
       <div className={'container ' + classes.wrapper}>
         <Typography type='display2'>{section.name}</Typography>
         <hr className={classes.divider}/>
-        <Resources resources={section.resources}/>
+        <Typography type='body1'>{section.description}</Typography>
+        {section.resources != null ? <Resources resources={section.resources}/> : <Links links={section.sources}/>}
       </div>
     );
   }

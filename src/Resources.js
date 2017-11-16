@@ -13,20 +13,20 @@ class Resources extends Component {
       if (i % 2 === 0) {
         mappedElements.push(...[(
           <div key={i} className='row'>
-              <div className='col-lg-6'>
-                <Resource resource={resources[i]}/>
-              </div>
-              <div className='col-lg-6'>
-                <Resource resource={resources[++i]}/>
-              </div>
+            <div className='col-lg-6'>
+              <Resource resource={resources[i]}/>
             </div>
+            <div className='col-lg-6'>
+              <Resource resource={resources[++i]}/>
+            </div>
+          </div>
         )]);
       } else {
         mappedElements.push(...[(
           <div key={i} className='row'>
-              <div className='col-lg-6'>
-                <Resource resource={resources[i]}/>
-              </div>
+            <div className='col-lg-6'>
+              <Resource resource={resources[i]}/>
+            </div>
           </div>
         )]);
       }

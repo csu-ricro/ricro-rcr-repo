@@ -1,132 +1,318 @@
 [{
-    "name": "General RCR Resources",
-    "resources": [{
-      "name": "Resources for Research Ethics Education, UC San Diego",
-      "links": [{
-        "display": "http://research-ethics.net/",
-        "href": "http://research-ethics.net/"
-      }]
-    }, {
-      "name": "Ethics CORE (Collaborative Online Resource Environment), University of Illinois Urbana-Champaign",
-      "links": [{
-        "display": "https://nationalethicscenter.org/",
-        "href": "https://nationalethicscenter.org/"
-      }]
-    }, {
-      "name": "Research Integrity & Reproducibility",
-      "links": [{
-        "display": "http://metasub.org/research-integrity-and-reproducibility/",
-        "href": "http://metasub.org/research-integrity-and-reproducibility/"
-      }]
-    }, {
-      "name": "Penn State University",
-      "links": [{
-        "display": "https://www.research.psu.edu/education/rcr",
-        "href": "https://www.research.psu.edu/education/rcr"
-      }]
-    }, {
-      "name": "UC San Diego Research Ethics Program",
-      "links": [{
-        "display": "http://ethics.ucsd.edu/resources/index.html",
-        "href": "http://ethics.ucsd.edu/resources/index.html"
-      }]
-    }, {
-      "name": "Ethics Education Library, Illinois Institute of Technology",
-      "links": [{
-        "display": "http://ethics.iit.edu/eelibrary/",
-        "href": "http://ethics.iit.edu/eelibrary/"
-      }]
-    }, {
-      "name": "Office of Research Integrity, ORI",
-      "links": [{
-        "display": "https://ori.hhs.gov/general-resources-0",
-        "href": "https://ori.hhs.gov/general-resources-0"
-      }]
-    }, {
-      "name": "Online Ethics Center for Engineering and Research, National Academy of Engineering",
-      "links": [{
-        "display": "http://www.onlineethics.org/",
-        "href": "http://www.onlineethics.org/"
-      }]
-    }, {
-      "name": "Project for Scholarly Integrity, Council of Graduate Schools",
-      "links": [{
-        "display": "http://www.scholarlyintegrity.org/",
-        "href": "http://www.scholarlyintegrity.org/"
-      }, {
-        "display": "http://www.scholarlyintegrity.org/Resources.aspx",
-        "href": "http://www.scholarlyintegrity.org/Resources.aspx"
-      }]
-    }, {
-      "name": "Responsible Conduct of Research for Postdocs, National Postdoctoral Association",
-      "links": [{
-        "display": "Responsible Conduct of Research Toolkit",
-        "href": "http://c.ymcdn.com/sites/www.nationalpostdoc.org/resource/resmgr/npa-rcr-toolkit.pdf"
-      }]
-    }, {
-      "name": "Florida International University",
-      "links": [{
-        "display": "http://research.fiu.edu/rcr/resources/",
-        "href": "http://research.fiu.edu/rcr/resources/"
-      }]
-    }, {
-      "name": "Columbia RCR Portal",
-      "links": [{
-        "display": "http://ccnmtl.columbia.edu/projects/rcr/index.html",
-        "href": "http://ccnmtl.columbia.edu/projects/rcr/index.html"
-      }]
-    }, {
-      "name": "Boston College",
-      "links": [{
-        "display": "http://www.bc.edu/research/oric/rcr.html",
-        "href": "http://www.bc.edu/research/oric/rcr.html"
-      }]
-    }, {
-      "name": "European Code of Conduct for Research Integrity",
-      "links": [{
-        "display": "http://www.allea.org/wp-content/uploads/2017/03/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017-1.pdf",
-        "href": "http://www.allea.org/wp-content/uploads/2017/03/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017-1.pdf"
-      }]
-    }, {
-      "name": "Movie “On Being a Scientist” Leiden University, Netherlands",
-      "links": [{
-        "display": "On Being a Scientist",
-        "href": "https://www.youtube.com/watch?v=tCgZSjoxF7c"
-      }]
-    }, {
-      "name": "Dilemma Game Erasmus, University of Rotterdam",
-      "links": [{
-        "display": "https://www.eur.nl/english/eur/publications/integrity/dilemma_game/",
-        "href": "https://www.eur.nl/english/eur/publications/integrity/dilemma_game/"
-      }]
-    }, {
-      "name": "Research Ethics Library, Norway",
-      "links": [{
-        "display": "https://www.etikkom.no/en/library/",
-        "href": "https://www.etikkom.no/en/library/"
-      }]
-    }, {
-      "name": "European Network of Research Integrity Offices",
-      "links": [{
-        "display": "http://www.enrio.eu/",
-        "href": "http://www.enrio.eu/"
-      }]
-    }, {
-      "name": "Ethics and Integrity: Promoting Scientific Integrity in Research",
-      "links": [{
-        "display": "http://ethics-and-integrity.net/",
-        "href": "http://ethics-and-integrity.net/"
-      }]
-    }, {
-      "name": "RRI Tools, Responsible Research and Innovation (European Union)",
-      "links": [{
-        "display": "https://www.rri-tools.eu/",
-        "href": "https://www.rri-tools.eu/"
-      }]
+  "name": "General RCR Resources",
+  "resources": [{
+    "name": "Resources for Research Ethics Education, UC San Diego",
+    "links": [{
+      "display": "http://research-ethics.net/",
+      "href": "http://research-ethics.net/"
     }]
-  },
-  {
-    "name": "Case Studies",
-    "resources": []
-  }
-]
+  }, {
+    "name": "Ethics CORE (Collaborative Online Resource Environment), University of Illinois Urbana-Champaign",
+    "links": [{
+      "display": "https://nationalethicscenter.org/",
+      "href": "https://nationalethicscenter.org/"
+    }]
+  }, {
+    "name": "Research Integrity & Reproducibility",
+    "links": [{
+      "display": "http://metasub.org/research-integrity-and-reproducibility/",
+      "href": "http://metasub.org/research-integrity-and-reproducibility/"
+    }]
+  }, {
+    "name": "Penn State University",
+    "links": [{
+      "display": "https://www.research.psu.edu/education/rcr",
+      "href": "https://www.research.psu.edu/education/rcr"
+    }]
+  }, {
+    "name": "UC San Diego Research Ethics Program",
+    "links": [{
+      "display": "http://ethics.ucsd.edu/resources/index.html",
+      "href": "http://ethics.ucsd.edu/resources/index.html"
+    }]
+  }, {
+    "name": "Ethics Education Library, Illinois Institute of Technology",
+    "links": [{
+      "display": "http://ethics.iit.edu/eelibrary/",
+      "href": "http://ethics.iit.edu/eelibrary/"
+    }]
+  }, {
+    "name": "Office of Research Integrity, ORI",
+    "links": [{
+      "display": "https://ori.hhs.gov/general-resources-0",
+      "href": "https://ori.hhs.gov/general-resources-0"
+    }]
+  }, {
+    "name": "Online Ethics Center for Engineering and Research, National Academy of Engineering",
+    "links": [{
+      "display": "http://www.onlineethics.org/",
+      "href": "http://www.onlineethics.org/"
+    }]
+  }, {
+    "name": "Project for Scholarly Integrity, Council of Graduate Schools",
+    "links": [{
+      "display": "http://www.scholarlyintegrity.org/",
+      "href": "http://www.scholarlyintegrity.org/"
+    }, {
+      "display": "http://www.scholarlyintegrity.org/Resources.aspx",
+      "href": "http://www.scholarlyintegrity.org/Resources.aspx"
+    }]
+  }, {
+    "name": "Responsible Conduct of Research for Postdocs, National Postdoctoral Association",
+    "links": [{
+      "display": "Responsible Conduct of Research Toolkit",
+      "href": "http://c.ymcdn.com/sites/www.nationalpostdoc.org/resource/resmgr/npa-rcr-toolkit.pdf"
+    }]
+  }, {
+    "name": "Florida International University",
+    "links": [{
+      "display": "http://research.fiu.edu/rcr/resources/",
+      "href": "http://research.fiu.edu/rcr/resources/"
+    }]
+  }, {
+    "name": "Columbia RCR Portal",
+    "links": [{
+      "display": "http://ccnmtl.columbia.edu/projects/rcr/index.html",
+      "href": "http://ccnmtl.columbia.edu/projects/rcr/index.html"
+    }]
+  }, {
+    "name": "Boston College",
+    "links": [{
+      "display": "http://www.bc.edu/research/oric/rcr.html",
+      "href": "http://www.bc.edu/research/oric/rcr.html"
+    }]
+  }, {
+    "name": "European Code of Conduct for Research Integrity",
+    "links": [{
+      "display": "http://www.allea.org/wp-content/uploads/2017/03/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017-1.pdf",
+      "href": "http://www.allea.org/wp-content/uploads/2017/03/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017-1.pdf"
+    }]
+  }, {
+    "name": "Movie “On Being a Scientist” Leiden University, Netherlands",
+    "links": [{
+      "display": "On Being a Scientist",
+      "href": "https://www.youtube.com/watch?v=tCgZSjoxF7c"
+    }]
+  }, {
+    "name": "Dilemma Game Erasmus, University of Rotterdam",
+    "links": [{
+      "display": "https://www.eur.nl/english/eur/publications/integrity/dilemma_game/",
+      "href": "https://www.eur.nl/english/eur/publications/integrity/dilemma_game/"
+    }]
+  }, {
+    "name": "Research Ethics Library, Norway",
+    "links": [{
+      "display": "https://www.etikkom.no/en/library/",
+      "href": "https://www.etikkom.no/en/library/"
+    }]
+  }, {
+    "name": "European Network of Research Integrity Offices",
+    "links": [{
+      "display": "http://www.enrio.eu/",
+      "href": "http://www.enrio.eu/"
+    }]
+  }, {
+    "name": "Ethics and Integrity: Promoting Scientific Integrity in Research",
+    "links": [{
+      "display": "http://ethics-and-integrity.net/",
+      "href": "http://ethics-and-integrity.net/"
+    }]
+  }, {
+    "name": "RRI Tools, Responsible Research and Innovation (European Union)",
+    "links": [{
+      "display": "https://www.rri-tools.eu/",
+      "href": "https://www.rri-tools.eu/"
+    }]
+  }]
+}, {
+  "name": "Case Studies",
+  "description": "Compilation borrowed from the Train the Trainers: RCR Courses & Workshops session held at the 2017 5th World Conference on Research Integrity organized by Stefanie Van der Burght and Michael Kalichman.",
+  "sources": [{
+    "display": "Bebeau MJ with Pimple KD, Muskavitch KMT, Borden SL, Smith DH (1995): Moral Reasoning in Scientific Research: Cases for Teaching and Assessment. Indiana University.",
+    "href": "https://depts.washington.edu/uwbri/PDF%20Files/Moral_Reasong_in_Scific_Res.pdf"
+  }, {
+    "display": "Cases and Scenarios, Online Ethics Center for Engineering and Research, National Academy of Engineering.",
+    "href": "http://www.onlineethics.org/Resources.aspx?resource-type=29_772"
+  }, {
+    "display": "Macrina FL (2014): Scientific Integrity: An Introductory Text with Cases. 4th edition, American Society for Microbiology Press, Washington, DC."
+  }, {
+    "display": "National Academy of Sciences (2009): On Being a Scientist: Responsible Conduct in Research. 3rd Edition. Publication from the Committee on Science, Engineering, and Public Policy, National Academy of Sciences, National Academy of Engineering, and Institute of Medicine. National Academy Press, Washington DC.",
+    "href": "http://www.nap.edu/catalog.php?record id=12192"
+  }, {
+    "display": "Pimple KD (2002): Using Small Group Assignments in Teaching Research Ethics, The Poynter Center, Indiana University, Bloomington.",
+    "href": "https://www.nationalethicscenter.org/resources/7285/reviews"
+  }, {
+    "display": "Pimple KD (2007): Using case studies in teaching research ethics.",
+    "href": "https://www.nationalethicscenter.org/resources/7282/download/292.pdf"
+  }, {
+    "display": "Schrag B, ed. (1996-2006): Graduate Research Ethics: Cases and Commentaries, Volumes 1-6, Association for Practical and Professional Ethics, Bloomington, Indiana.",
+    "href": "http://www.onlineethics.org/cms/15333.aspx"
+  }]
+}, {
+  "name": "Integrating Ethics in the Curriculum or Discipline",
+  "description": "Compilation borrowed from the Train the Trainers: RCR Courses & Workshops session held at the 2017 5th World Conference on Research Integrity organized by Stefanie Van der Burght and Michael Kalichman.",
+  "sources": [{
+    "display": "Davis M (2004): Five Kinds of Ethics Across the Curriculum. Teaching Ethics 4(2):1-11.",
+    "href": "https://www.uvu.edu/ethics/seac/Davis-Five%20Kinds%20of%20EATC%20-%20An%20Intro.pdf"
+  }, {
+    "display": "Davis M (2006). Integrating Ethics into Technical Courses: Micro-Insertion. Science and Engineering Ethics, 12, 717-730."
+  }, {
+    "display": "Society’ for Ethics Across the Curriculum.",
+    "href": "http://www.rit.edu/cla/ethics/seac"
+  }, {
+    "display": "Teaching Ethics Across the Engineering Curriculum. Michael Davis. Illinois Institute of Technology.",
+    "href": "http://onlineethics.org/cms/8924.aspx"
+  }]
+}, {
+  "name": "Mentoring",
+  "description": "Compilation borrowed from the Train the Trainers: RCR Courses & Workshops session held at the 2017 5th World Conference on Research Integrity organized by Stefanie Van der Burght and Michael Kalichman.",
+  "sources": [{
+    "display": "Macrina FL (2014): Chapter 3. Mentoring. In: (Macrina FL, au.) Scientific Integrity. An Introductory Text with Cases. 4111 Edition, ASM Press, Washington, D.C.",
+    "href": "http://www.scientificintegrity.net"
+  }, {
+    "display": "National Academy of Sciences, National Academy of Engineering, and Institute of Medicine (1997): Adviser, Teacher, Role Model, Friend: On Being a Mentor to Students in Science and Engineering. National Academy Press, Washington, D.C., 84 pp.",
+    "href": "https://www.nap.edu/catalog/5789/adviser-teacher-role-model-friend-on-being-a-mentor-to"
+  }, {
+    "display": "National Institutes of Health: A Guide to Training and Mentoring in the Intramural Research Program at NIH.",
+    "href": "https://oir.nih.gov/sourcebook/mentoring-training/guide-training-mentoring"
+  }, {
+    "display": "University of Michigan (2010): How to Get the Mentoring You Want: A Guide for Graduate Students, Rackham Graduate School.",
+    "href": "http://www.rackham.umich.edu/downloads/publications/mentoring.pdf"
+  }, {
+    "display": "University of Michigan (2011): How to Mentor Graduate Students: A Guide for Faculty. Rackham Graduate School.",
+    "href": "http://www.rackham.umich.edu/downloads/publications/Fmentoring.pdf"
+  }, {
+    "display": "University of Wisconsin: Resources for Each Phase of the Mentoring Relationship.",
+    "href": "https://ictr.wisc.edu/mentoring/ "
+  }]
+}, {
+  "name": "Mentoring and Responsible Conduct",
+  "description": "Compilation borrowed from the Train the Trainers: RCR Courses & Workshops session held at the 2017 5th World Conference on Research Integrity organized by Stefanie Van der Burght and Michael Kalichman.",
+  "sources": [{
+    "display": "Anderson MS, Horn AS, Risbey KR, Ronning EA, DeVries R & Martinson BC (2007): What Do Mentoring and Training in the Responsible Conduct of Research Have To Do with Scientists’ Misbehavior? Findings from a National Survey of NIH-Funded Scientists. Academic Medicine 82(9):853-860."
+  }, {
+    "display": "Anderson MS. Louis KS (1994): The graduate student experience and subscription to the norms of science. Res Higher Ed 35:273—99."
+  }, {
+    "display": "Brown 5, MW Kalichman (1998): Effects of training in the responsible conduct of research: A survey of graduate students in experimental sciences. Science and Engineering Ethics 4(4): 487-498."
+  }, {
+    "display": "Eastwood S. Derish P, Leash E, Ordway S (1996): Ethical issues in biomedical research: Perceptions and practices of postdoctoral research fellows responding to a survey. Science and Engineering Ethics 2: 89-114."
+  }, {
+    "display": "Fryer-Edwards K (2002). Addressing the Hidden Curriculum in Scientific Research.American Journal of Bioethics, 2(4): 58-59."
+  }, {
+    "display": "Peiffer AM, Laurenti PJ, Hugenschmidt CE (2008). Fostering a Culture of Responsible Lab Conduct. Science. 322:1186"
+  }, {
+    "display": "Swazey JP, Anderson MS (1996): Mentors, advisors, and role models in graduate and professional education. Association of Academic Health Centers, Washington, DC."
+  }, {
+    "display": "Whitbeek C (2001): Group mentoring to foster the responsible conduct of research. Science and Engineering Ethics 7:541-558."
+  }, {
+    "display": "Wright DE, Titus SL, Cornelison JB (2008): Mentoring and Research Misconduct: An Analysis of Research Mentoring in Closed ORI Cases. Science and Engineering Ethics 14(3): 323-336.",
+    "href": "https://link.springer.com/article/10.1007%2Fs11948-008-9074-5"
+  }]
+}, {
+  "name": "Readings for Students about Science and Ethics",
+  "description": "Compilation borrowed from the Train the Trainers: RCR Courses & Workshops session held at the 2017 5th World Conference on Research Integrity organized by Stefanie Van der Burght and Michael Kalichman.",
+  "sources": [{
+    "display": "Angier N, Thomas L (1999): Natural Obsessions: Striving to Unlock the Deepest Secrets of the Cancer Cell. Mariner Books."
+  }, {
+    "display": "Barker K (2002): At the Helm: A Laboratory Navigator. Cold Spring Harbor Laboratory Press."
+  }, {
+    "display": "Barker K (2005): At the Bench: A Laboratory Navigator. Cold Spring Harbor Laboratory Press."
+  }, {
+    "display": "Beveridge WIB (1950): The Art of Scientific Investigation. Vintage Books, New York."
+  }, {
+    "display": "Bishop JM (2003): How to Win the Nobel Prize: An Unexpected Life in Science. Harvard University Press."
+  }, {
+    "display": "Feibelman PJ (1993): A Ph.D. is Not Enough: A Guide to Survival in Science. Addison-Wesley, Reading, MA."
+  }, {
+    "display": "Grinnell F (2008): The Everyday Practice of Science Oxford University Press."
+  }, {
+    "display": "Gunsalus CK (2012): The Young Professional’s Survival Guide: From Cab Fares to Moral Snares. Harvard University Press."
+  }, {
+    "display": "Kanigel R (1993): Apprentice to Genius: The Making of a Scientific Dynasty. Johns Hopkins University Press."
+  }, {
+    "display": "Kennedy D (1997): Academic Duty. Harvard University Press."
+  }, {
+    "display": "Lang JM (2005): Life on the Tenure Track: Lessons from the First Year. Johns Hopkins University Press, Baltimore."
+  }, {
+    "display": "Medawar PB (1979): Advice to a Young Scientist. Harper & Row, Philadelphia."
+  }, {
+    "display": "Ramon y Cajal S (1999): Advice for a Young Investigator. MIT Press"
+  }, {
+    "display": "Selye H (1964): From Dream to Discovery: On Being a Scientist. McGraw-Hill, New York."
+  }, {
+    "display": "Schoenfeld C (1992): Mentor in a manual: climbing the academic ladder to tenure. Magna Publications, Madison, WI."
+  }, {
+    "display": "Sindermann CJ (1987): Survival Strategies of New Scientists. Plenum Press, New York."
+  }, {
+    "display": "Skloot R (2010): The Immortal Life of Henrietta Lacks. Crown."
+  }, {
+    "display": "Slack JMW (1998): Egg and Ego: An Almost True Story of Life in the Biology Lab. Springer Press."
+  }, {
+    "display": "Sutton RI (2007): The No Asshole Rule: Building a Civilized Workplace and Surviving One That Isn’t. Business Plus."
+  }]
+}, {
+  "name": "Texts on Research Ethics",
+  "description": "Compilation borrowed from the Train the Trainers: RCR Courses & Workshops session held at the 2017 5th World Conference on Research Integrity organized by Stefanie Van der Burght and Michael Kalichman.",
+  "sources": [{
+    "display": "Bulger RE, Heitman E, Reiser Si (2002): The Ethical Dimensions of the Biological and Health Sciences, Cambridge Univ. Press, NY."
+  }, {
+    "display": "Harris CE, Pritchard M. Rabins M (2008): Engineering Ethics: Concepts and Cases 4e. Wadsworlh Publishing. Belmont CA."
+  }, {
+    "display": "Israel M. Hay I (2006): Research Ethics for Social Scientists. Sage Publications. Thousand Oaks."
+  }, {
+    "display": "Kovac J (2003): The Ethical Chemist: Professionalism and Ethics in Science. Prentice Hall."
+  }, {
+    "display": "Macrina FL (2014): Scientific Integrity, ASM Press, 4th ed., Washington, D.C."
+  }, {
+    "display": "National Academics of Science (2009): On Being a Scientist: A Guide to Responsible Conduct in Research. http:www.nap.edu/catalog.php?record id=12192"
+  }, {
+    "display": "Penslar RL, ed. (1995): Research Ethics: Cases and Materials. Indiana University Press. Bloomington."
+  }, {
+    "display": "Shamoo AE, Resnik DR (2002): Responsible Conduct of Research, Oxford Univ. Press, NY."
+  }, {
+    "display": "Sponholz G, Leidenfrost J (2013) Curriculum “Good Scientific Practice.”",
+    "href": "http://www.oeawi.at/downloads/ENOHE8Final.pdf"
+  }, {
+    "display": "Steneck NH (2004): ORI Introduction to the Responsible Conduct of Research.",
+    "href": "http://ori.hhs.gov/ori-intro"
+  }]
+}, {
+  "name": "Fostering Integrity in Research",
+  "description": "Compilation borrowed from the Train the Trainers: RCR Courses & Workshops session held at the 2017 5th World Conference on Research Integrity organized by Stefanie Van der Burght and Michael Kalichman.",
+  "sources": [{
+    "display": "IOM (2002): Integrity in Scientific Research: Creating an Environment That Promotes Responsible Conduct. National Academies Press, Washington, DC.",
+    "href": "https://www.nap.edu/catalog/10430/integrity-in-scientific-research-creating-an-environment-that-promotes-responsible"
+  }, {
+    "display": "Kalichman MW (2007): Responding to challenges in educating for the responsible conduct of research. Academic Medicine 82(9): 870-875."
+  }, {
+    "display": "National Academies of Sciences, Engineering, and Medicine (2017). Fostering Integrity in Research. The National Academics Press, Washington, DC.",
+    "href": "https://www.nap.edu/catalog/21896/fostering-integrity-in-research"
+  }, {
+    "display": "Seven reasons to Care about Integrity in Research. Science Europe",
+    "href": "http://www.scienceeurope.org/wp-content/uploads/2015/06/20150617_Seven-Reasons_web2_Final.pdf"
+  }, {
+    "display": "Singapore Statement on Research Integrity",
+    "href": "http://www.singaporestatement.org"
+  }, {
+    "display": "The European Code of Conduct for Research Integrity — Revised Edition (2017) ALLEA — All European Academies",
+    "href": "http://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf"
+  }]
+}, {
+  "name": "RCR Instructional Goals & Assessment",
+  "description": "Compilation borrowed from the Train the Trainers: RCR Courses & Workshops session held at the 2017 5th World Conference on Research Integrity organized by Stefanie Van der Burght and Michael Kalichman.",
+  "sources": [{
+    "display": "Antes AL, Murphy ST. Waples EP, Mumford MD. Brown RP, Connelly 5, Devenport LD (2009): A Meta-Analysis of Ethics Instruction Effectiveness in the Sciences. Ethics Behav I 9(5):379-402."
+  }, {
+    "display": "Elliott D, Stern JE (1996): Evaluating Teaching and Students’ Learning of Academic Research Ethics. Science and Engineering Ethics 2:345-366."
+  }, {
+    "display": "Fleitman E, Olsen CH, Anestidou L, Bulger RE (2007): New Graduate Students’ Baseline Knowledge of the Responsible Conduct of Research. Academic Medicine. 82(9):838-845."
+  }, {
+    "display": "Kalichman M (2013): Why do we teach research ethics? Proceedings from National Academy of Engineering Workshop on Practical Guidance on Science and Engineering Ethics Education. pp. 5-16."
+  }, {
+    "display": "Kalichman MW, Plemmons DK (2007): Reported Goals for Responsible Conduct of Research Courses. Academic Medicine 82(9): 846-852."
+  }, {
+    "display": "Mulhearn TJ, Steele LM, Watts LL, Medeiros KE, Mumford MD, Connelly S (2016). Review of instructional approaches in ethics education. Science and Engineering Ethics. doi:10.1007/s11948-016-9803-0."
+  }, {
+    "display": "Watts LL, Medeiros ICE, Muihearn TJ, Steele LM, Connelly S Mumford MD (2016). Are ethics training programs improving? A metaanalytic review of past and present ethics instruction in the sciences. Ethics and Behavior. doi: 10.1080/10508422.2016.1182025."
+  }]
+}]

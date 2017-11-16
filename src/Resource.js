@@ -6,14 +6,11 @@ import _ from 'lodash';
 import {
   withStyles,
 } from 'material-ui/styles';
-import List, {
-  ListItem,
-  ListItemText,
-} from 'material-ui/List';
 import Typography from 'material-ui/Typography';
 import Divider from 'material-ui/Divider';
 import Paper from 'material-ui/Paper';
-import Avatar from 'material-ui/Avatar';
+
+import Links from './Links';
 
 const styles = theme => ({
   card: {
@@ -65,25 +62,7 @@ class Resources extends Component {
         <Paper className={classes.paper}>
           <Typography type='title'>{resource.name}</Typography>
           <Divider/>
-          <List disablePadding>
-            {_.isEmpty(resource.links) ? null : (
-              <div>
-                {resource.links.map((link, i) =>
-                  <a key={i} href={link.href} className={classes.noHover}>
-                    <ListItem button>
-                      <Avatar className={this.props.classes.linkIcon}>
-                        <i className={'fa ' + this.icon(link.href)} aria-label='Link Type'/>
-                      </Avatar>
-                      <ListItemText
-                        primary={<span className={classes.breakWord}>{link.display}</span>}
-                        secondary={link.display === link.href ? null : <span className={classes.breakWord}>{link.href}</span>}
-                        />
-                    </ListItem>
-                  </a>
-                )}
-              </div>
-            )}
-          </List>
+          {_.isEmpty(resource.links) ? null : <Links links={resource.links}/>}
         </Paper>
       </div>
     );
