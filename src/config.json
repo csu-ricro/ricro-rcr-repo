@@ -1,23 +1,23 @@
 {
   "api": {
-    "auth": "https://services.ricro.colostate.edu/auth/sso/",
-    "location": "https://services.ricro.colostate.edu/api"
+    "auth": "/auth/sso/",
+    "location": "/api/v2"
   },
   "app": {
+    "basename": "/rcr/repository",
     "name": "RCR Repository",
-    "header": {
-      "login": false,
-      "autoLogin": false,
-      "moreMenu": [{
-        "name": "Home",
-        "icon": "home",
-        "link": "/"
-      }, {
-        "name": "Contact Us",
-        "icon": "email",
-        "link": "https://vpr.colostate.edu/ricro/rcr/contact-us"
-      }]
-    }
+    "hasLogin": true,
+    "hasAutoLogin": false,
+    "sideNav": [{
+      "name": "Apps",
+      "icon": "apps",
+      "link": "/"
+    }, {
+      "name": "Contact Us",
+      "icon": "email",
+      "link": "https://vpr.colostate.edu/ricro/contact-us"
+    }],
+    "userDefaultProfileImg": "/_static/img/default-profile.png"
   },
   "unit": {
     "name": "RICRO",

@@ -1,15 +1,10 @@
-import React, {
-  Component,
-} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
-import {
-  withStyles,
-} from 'material-ui/styles';
-import Typography from 'material-ui/Typography';
-import Divider from 'material-ui/Divider';
-import Paper from 'material-ui/Paper';
-
+import withStyles from '@material-ui/core/styles/withStyles';
+import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
+import Paper from '@material-ui/core/Paper';
 import Links from './Links';
 
 const styles = theme => ({
@@ -26,7 +21,7 @@ const styles = theme => ({
     },
   },
   linkIcon: {
-    background: theme.palette.primary["500"]
+    background: theme.palette.primary['500'],
   },
   breakWord: {
     wordBreak: 'break-word',
@@ -51,25 +46,22 @@ class Resources extends Component {
       return 'fa-youtube-play';
     }
     return 'fa-link';
-  }
+  };
   render() {
-    let {
-      classes,
-      resource
-    } = this.props;
+    const { classes, resource } = this.props;
     return (
       <div className={classes.card}>
         <Paper className={classes.paper}>
-          <Typography type='title'>{resource.name}</Typography>
-          <Divider/>
-          {_.isEmpty(resource.links) ? null : <Links links={resource.links}/>}
+          <Typography type="title">{resource.name}</Typography>
+          <Divider />
+          {_.isEmpty(resource.links) ? null : <Links links={resource.links} />}
         </Paper>
       </div>
     );
   }
 }
 
-Resources.proptypes = {
+Resources.propTypes = {
   classes: PropTypes.object.isRequired,
   resource: PropTypes.object.isRequired,
 };

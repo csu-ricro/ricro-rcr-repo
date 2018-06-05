@@ -1,16 +1,9 @@
-import React, {
-  Component,
-} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  withStyles,
-} from 'material-ui/styles';
-import List, {
-  ListItem,
-  ListItemText,
-} from 'material-ui/List';
-import Avatar from 'material-ui/Avatar';
-import Divider from 'material-ui/Divider';
+import withStyles from '@material-ui/core/styles/withStyles';
+import List, { ListItem, ListItemText } from '@material-ui/core/List';
+import Avatar from '@material-ui/core/Avatar';
+import Divider from '@material-ui/core/Divider';
 
 const styles = theme => ({
   noHover: {
@@ -19,14 +12,14 @@ const styles = theme => ({
     },
   },
   linkIcon: {
-    background: theme.palette.primary["500"]
+    background: theme.palette.primary['500'],
   },
   breakWord: {
     wordBreak: 'break-word',
   },
 });
 
-class Link extends Component {
+class Links extends React.Component {
   icon = hrefString => {
     if (hrefString == null) {
       return 'fa-circle-o';
@@ -47,36 +40,37 @@ class Link extends Component {
       return 'fa-youtube-play';
     }
     return 'fa-link';
-  }
+  };
   render() {
-    let {
-      classes,
-      links
-    } = this.props;
+    const { classes, links } = this.props;
     return (
       <List>
-        {links.map((link, i) =>
-          <a key={i} href={link.href} className={classes.noHover}>
+        {links.map((link, i) => (
+          <a key={link.display} href={link.href} className={classes.noHover}>
             <ListItem button={link.href != null}>
-              <Avatar className={this.props.classes.linkIcon}>
-                <i className={'fa ' + this.icon(link.href)} aria-label='Link Type'/>
+              <Avatar className={classes.linkIcon}>
+                <i className={`fa ${this.icon(link.href)}`} aria-label="Link Type" />
               </Avatar>
-            <ListItemText
-              primary={<span className={classes.breakWord}>{link.display}</span>}
-              secondary={link.display === link.href ? null : <span className={classes.breakWord}>{link.href}</span>}
+              <ListItemText
+                primary={<span className={classes.breakWord}>{link.display}</span>}
+                secondary={
+                  link.display === link.href ? null : (
+                    <span className={classes.breakWord}>{link.href}</span>
+                  )
+                }
               />
-          </ListItem>
-          {i !== links.length-1 ? <Divider inset/> : null}
-        </a>
-      )}
-    </List>
+            </ListItem>
+            {i !== links.length - 1 ? <Divider inset /> : null}
+          </a>
+        ))}
+      </List>
     );
   }
 }
 
-Link.proptypes = {
+Links.propTypes = {
   classes: PropTypes.object.isRequired,
   links: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Link);
+export default withStyles(styles)(Links);

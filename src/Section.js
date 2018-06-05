@@ -1,16 +1,12 @@
-import React, {
-  Component,
-} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {
-  withStyles,
-} from 'material-ui/styles';
-import Typography from 'material-ui/Typography';
-
+import withStyles from '@material-ui/core/styles/withStyles';
+import Typography from '@material-ui/core/Typography';
+import sections from './assets/sections.json';
 import Resources from './Resources';
 import Links from './Links';
 
-const styles = theme => ({
+const styles = () => ({
   wrapper: {
     marginTop: 10,
   },
@@ -19,26 +15,38 @@ const styles = theme => ({
   },
 });
 
-class Section extends Component {
-  render() {
-    let {
-      classes,
-      section,
-    } = this.props;
-    return (
-      <div className={'container ' + classes.wrapper}>
-        <Typography type='display2'>{section.name}</Typography>
-        <hr className={classes.divider}/>
-        <Typography type='body1'>{section.description}</Typography>
-        {section.resources != null ? <Resources resources={section.resources}/> : <Links links={section.sources}/>}
-      </div>
-    );
-  }
-}
+const Section = props => {
+  const { classes, section } = props;
+  return (
+    <div className={`container ${classes.wrapper}`}>
+      <Typography type="display2">{section.name}</Typography>
+      <hr className={classes.divider} />
+      <Typography type="body1">{section.description}</Typography>
+      {section.resources != null ? (
+        <Resources resources={section.resources} />
+      ) : (
+        <Links links={section.sources} />
+      )}
+    </div>
+  );
+};
 
-Section.proptypes = {
+Section.propTypes = {
   classes: PropTypes.object.isRequired,
   section: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Section);
+class SectionsContainer extends Component {
+  render() {
+    const { classes } = this.props;
+    return sections.map(section => (
+      <Section key={section.name} classes={classes} section={section} />
+    ));
+  }
+}
+
+SectionsContainer.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(SectionsContainer);
