@@ -14,7 +14,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "/rcr/repository",
+  "homepage": "/apps/rcr/repository",
   "eslintConfig": {
     "extends": "react-app"
   }
